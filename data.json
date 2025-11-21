@@ -1,0 +1,43 @@
+[
+{
+    "nome": "Midjourney",
+     "tipo": "Criação de Imagem / Vídeo",
+     "link": "https://www.midjourney.com/"
+},
+{
+    "nome": "Kling AI",
+     "tipo": "Criação de Imagem / Vídeo",
+     "link": "https://klingai.com/global/"
+},
+{
+    "nome": "ChatGPT",
+    
+    "tipo": "Geração de Texto / Chatbot",
+    "link": "https://chat.openai.com/"
+},
+{
+    "nome": "GitHub Copilot",
+    "tipo": "Geração de Código",
+    "link": "https://github.com/features/copilot"
+},
+{
+    "nome": "Suno AI",
+    "tipo": "Criação de Música",
+    "link": "https://www.suno.ai/"
+},
+{
+    "nome": "RunwayML",
+    "tipo": "Edição e Geração de Vídeo",
+    "link": "https://runwayml.com/"
+},
+{
+    "nome": "Canva Magic Studio",
+    "tipo": "Design Gráfico / Apresentações",
+    "link": "https://www.canva.com/magic-studio/"
+},
+{
+    "nome": "ElevenLabs",
+    "tipo": "Geração e Clonagem de Voz",
+    "link": "https://elevenlabs.io/"
+}
+]
