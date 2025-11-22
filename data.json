@@ -1,43 +1,339 @@
 [
-{
-    "nome": "Midjourney",
-     "tipo": "Criação de Imagem / Vídeo",
-     "link": "https://www.midjourney.com/"
-},
-{
-    "nome": "Kling AI",
-     "tipo": "Criação de Imagem / Vídeo",
-     "link": "https://klingai.com/global/"
-},
-{
-    "nome": "ChatGPT",
-    
-    "tipo": "Geração de Texto / Chatbot",
-    "link": "https://chat.openai.com/"
-},
-{
-    "nome": "GitHub Copilot",
-    "tipo": "Geração de Código",
-    "link": "https://github.com/features/copilot"
-},
-{
-    "nome": "Suno AI",
-    "tipo": "Criação de Música",
-    "link": "https://www.suno.ai/"
-},
-{
-    "nome": "RunwayML",
-    "tipo": "Edição e Geração de Vídeo",
-    "link": "https://runwayml.com/"
-},
-{
-    "nome": "Canva Magic Studio",
-    "tipo": "Design Gráfico / Apresentações",
-    "link": "https://www.canva.com/magic-studio/"
-},
-{
-    "nome": "ElevenLabs",
-    "tipo": "Geração de Áudio e Clonagem de Voz",
-    "link": "https://elevenlabs.io/"
-}
+    {
+        "nome": "Midjourney",
+        "tipo": "Criação de Imagem / Vídeo",
+        "link": "https://www.midjourney.com/",
+        "descricao": "Gere imagens hiper-realistas e artísticas a partir de descrições textuais com alta qualidade e detalhamento.",
+        "logo": "https://logo.clearbit.com/midjourney.com",
+        "tarefas": [
+            "Gerar Imagens",
+            "Criar Arte",
+            "Design"
+        ]
+    },
+    {
+        "nome": "Kling AI",
+        "tipo": "Criação de Imagem / Vídeo",
+        "link": "https://klingai.com/global/",
+        "descricao": "Plataforma avançada para criação de vídeos e imagens com inteligência artificial, focada em realismo e movimento.",
+        "logo": "https://logo.clearbit.com/klingai.com",
+        "tarefas": [
+            "Gerar Vídeos",
+            "Animação",
+            "Gerar Imagens"
+        ]
+    },
+    {
+        "nome": "ChatGPT",
+        "tipo": "Geração de Texto / Chatbot",
+        "link": "https://chat.openai.com/",
+        "descricao": "O chatbot de IA mais popular do mundo, capaz de escrever textos, responder perguntas e auxiliar em tarefas complexas.",
+        "logo": "https://logo.clearbit.com/openai.com",
+        "tarefas": [
+            "Escrever Texto",
+            "Responder Perguntas",
+            "Resumir",
+            "Traduzir"
+        ]
+    },
+    {
+        "nome": "GitHub Copilot",
+        "tipo": "Geração de Código",
+        "link": "https://github.com/features/copilot",
+        "descricao": "Seu par programador com IA. Sugere linhas de código e funções inteiras em tempo real diretamente no seu editor.",
+        "logo": "https://logo.clearbit.com/github.com",
+        "tarefas": [
+            "Escrever Código",
+            "Debugar",
+            "Refatorar"
+        ]
+    },
+    {
+        "nome": "Suno AI",
+        "tipo": "Criação de Música",
+        "link": "https://www.suno.ai/",
+        "descricao": "Crie músicas completas, incluindo vocais e letras, a partir de simples prompts de texto em qualquer estilo.",
+        "logo": "https://logo.clearbit.com/suno.ai",
+        "tarefas": [
+            "Criar Música",
+            "Compor Letras",
+            "Gerar Áudio"
+        ]
+    },
+    {
+        "nome": "RunwayML",
+        "tipo": "Edição e Geração de Vídeo",
+        "link": "https://runwayml.com/",
+        "descricao": "Ferramentas profissionais de edição de vídeo com IA, incluindo geração de vídeo a partir de texto e imagem.",
+        "logo": "https://logo.clearbit.com/runwayml.com",
+        "tarefas": [
+            "Editar Vídeo",
+            "Gerar Vídeo",
+            "Efeitos Visuais"
+        ]
+    },
+    {
+        "nome": "Canva Magic Studio",
+        "tipo": "Design Gráfico / Apresentações",
+        "link": "https://www.canva.com/magic-studio/",
+        "descricao": "Conjunto de ferramentas de IA do Canva para criar designs, apresentações e editar imagens magicamente.",
+        "logo": "https://logo.clearbit.com/canva.com",
+        "tarefas": [
+            "Criar Design",
+            "Editar Imagens",
+            "Apresentações"
+        ]
+    },
+    {
+        "nome": "ElevenLabs",
+        "tipo": "Geração de Áudio e Clonagem de Voz",
+        "link": "https://elevenlabs.io/",
+        "descricao": "A tecnologia de voz de IA mais realista. Converta texto em fala e clone vozes com precisão impressionante.",
+        "logo": "https://logo.clearbit.com/elevenlabs.io",
+        "tarefas": [
+            "Texto para Fala",
+            "Clonagem de Voz",
+            "Dublagem"
+        ]
+    },
+    {
+        "nome": "Claude",
+        "tipo": "Geração de Texto / Chatbot",
+        "link": "https://claude.ai/",
+        "descricao": "Assistente de IA da Anthropic, conhecido por ser seguro, preciso e capaz de processar grandes quantidades de texto.",
+        "logo": "https://logo.clearbit.com/anthropic.com",
+        "tarefas": [
+            "Escrever Texto",
+            "Análise de Dados",
+            "Resumir"
+        ]
+    },
+    {
+        "nome": "Perplexity AI",
+        "tipo": "Pesquisa / Chatbot",
+        "link": "https://www.perplexity.ai/",
+        "descricao": "Motor de resposta conversacional que fornece respostas precisas com citações de fontes em tempo real.",
+        "logo": "https://logo.clearbit.com/perplexity.ai",
+        "tarefas": [
+            "Pesquisa",
+            "Responder Perguntas",
+            "Verificação de Fatos"
+        ]
+    },
+    {
+        "nome": "Jasper",
+        "tipo": "Marketing / Copywriting",
+        "link": "https://www.jasper.ai/",
+        "descricao": "IA especializada em criar conteúdo de marketing, blog posts e copy para redes sociais alinhado à sua marca.",
+        "logo": "https://logo.clearbit.com/jasper.ai",
+        "tarefas": [
+            "Marketing",
+            "Copywriting",
+            "Escrever Texto"
+        ]
+    },
+    {
+        "nome": "Copy.ai",
+        "tipo": "Marketing / Copywriting",
+        "link": "https://www.copy.ai/",
+        "descricao": "Gere textos de marketing, e-mails e postagens para mídias sociais em segundos com esta ferramenta de copywriting.",
+        "logo": "https://logo.clearbit.com/copy.ai",
+        "tarefas": [
+            "Copywriting",
+            "Marketing",
+            "E-mail Marketing"
+        ]
+    },
+    {
+        "nome": "Stable Diffusion",
+        "tipo": "Criação de Imagem",
+        "link": "https://stability.ai/",
+        "descricao": "Modelo de geração de imagens open-source poderoso, capaz de criar visuais detalhados a partir de texto.",
+        "logo": "https://logo.clearbit.com/stability.ai",
+        "tarefas": [
+            "Gerar Imagens",
+            "Criar Arte",
+            "Design"
+        ]
+    },
+    {
+        "nome": "Leonardo.ai",
+        "tipo": "Criação de Imagem / Game Assets",
+        "link": "https://leonardo.ai/",
+        "descricao": "Ferramenta focada na criação de assets de alta qualidade para jogos e design criativo com controle preciso.",
+        "logo": "https://logo.clearbit.com/leonardo.ai",
+        "tarefas": [
+            "Gerar Imagens",
+            "Game Assets",
+            "Design"
+        ]
+    },
+    {
+        "nome": "Synthesia",
+        "tipo": "Criação de Vídeo com Avatar",
+        "link": "https://www.synthesia.io/",
+        "descricao": "Crie vídeos profissionais com avatares de IA que falam em vários idiomas, apenas digitando o texto.",
+        "logo": "https://logo.clearbit.com/synthesia.io",
+        "tarefas": [
+            "Gerar Vídeos",
+            "Avatares",
+            "Apresentações"
+        ]
+    },
+    {
+        "nome": "Descript",
+        "tipo": "Edição de Áudio e Vídeo",
+        "link": "https://www.descript.com/",
+        "descricao": "Edite áudio e vídeo como se estivesse editando um documento de texto. Inclui transcrição e clonagem de voz.",
+        "logo": "https://logo.clearbit.com/descript.com",
+        "tarefas": [
+            "Editar Vídeo",
+            "Editar Áudio",
+            "Transcrição"
+        ]
+    },
+    {
+        "nome": "Otter.ai",
+        "tipo": "Transcrição / Reuniões",
+        "link": "https://otter.ai/",
+        "descricao": "Assistente de reuniões que grava áudio, escreve notas, captura slides e gera resumos automaticamente.",
+        "logo": "https://logo.clearbit.com/otter.ai",
+        "tarefas": [
+            "Transcrição",
+            "Reuniões",
+            "Resumir"
+        ]
+    },
+    {
+        "nome": "Grammarly",
+        "tipo": "Escrita / Correção",
+        "link": "https://www.grammarly.com/",
+        "descricao": "Assistente de escrita que revisa gramática, ortografia e estilo, ajudando a escrever textos claros e sem erros.",
+        "logo": "https://logo.clearbit.com/grammarly.com",
+        "tarefas": [
+            "Correção de Texto",
+            "Melhorar Escrita",
+            "Produtividade"
+        ]
+    },
+    {
+        "nome": "Quillbot",
+        "tipo": "Paráfrase / Escrita",
+        "link": "https://quillbot.com/",
+        "descricao": "Ferramenta de paráfrase que ajuda a reescrever frases, resumir textos e melhorar a fluidez da escrita.",
+        "logo": "https://logo.clearbit.com/quillbot.com",
+        "tarefas": [
+            "Reescrever Texto",
+            "Resumir",
+            "Escrita"
+        ]
+    },
+    {
+        "nome": "Beautiful.ai",
+        "tipo": "Apresentações",
+        "link": "https://www.beautiful.ai/",
+        "descricao": "Software de apresentação que usa IA para projetar slides bonitos e profissionais automaticamente.",
+        "logo": "https://logo.clearbit.com/beautiful.ai",
+        "tarefas": [
+            "Apresentações",
+            "Design",
+            "Produtividade"
+        ]
+    },
+    {
+        "nome": "Gamma",
+        "tipo": "Apresentações / Documentos",
+        "link": "https://gamma.app/",
+        "descricao": "Crie apresentações, documentos e páginas da web bonitas em segundos com a ajuda da IA.",
+        "logo": "https://logo.clearbit.com/gamma.app",
+        "tarefas": [
+            "Apresentações",
+            "Criar Documentos",
+            "Web Design"
+        ]
+    },
+    {
+        "nome": "Tome",
+        "tipo": "Storytelling / Apresentações",
+        "link": "https://tome.app/",
+        "descricao": "Formato de narrativa alimentado por IA que ajuda a desbloquear seu melhor trabalho com apresentações interativas.",
+        "logo": "https://logo.clearbit.com/tome.app",
+        "tarefas": [
+            "Apresentações",
+            "Storytelling",
+            "Design"
+        ]
+    },
+    {
+        "nome": "Character.ai",
+        "tipo": "Chatbot / Entretenimento",
+        "link": "https://beta.character.ai/",
+        "descricao": "Converse com personagens fictícios, figuras históricas ou crie seus próprios chatbots personalizados.",
+        "logo": "https://logo.clearbit.com/character.ai",
+        "tarefas": [
+            "Chatbot",
+            "Entretenimento",
+            "Roleplay"
+        ]
+    },
+    {
+        "nome": "Poe",
+        "tipo": "Agregador de Chatbots",
+        "link": "https://poe.com/",
+        "descricao": "Plataforma da Quora que permite acessar e conversar com vários modelos de IA, como GPT-4, Claude e outros.",
+        "logo": "https://logo.clearbit.com/poe.com",
+        "tarefas": [
+            "Chatbot",
+            "Pesquisa",
+            "Geração de Texto"
+        ]
+    },
+    {
+        "nome": "Hugging Face",
+        "tipo": "Comunidade / Modelos Open Source",
+        "link": "https://huggingface.co/",
+        "descricao": "A plataforma onde a comunidade de aprendizado de máquina colabora em modelos, dados e aplicações.",
+        "logo": "https://logo.clearbit.com/huggingface.co",
+        "tarefas": [
+            "Desenvolvimento",
+            "Modelos de IA",
+            "Data Science"
+        ]
+    },
+    {
+        "nome": "Replit",
+        "tipo": "IDE Online / Geração de Código",
+        "link": "https://replit.com/",
+        "descricao": "IDE colaborativo baseado em navegador com recursos de IA (Ghostwriter) para ajudar a escrever e explicar código.",
+        "logo": "https://logo.clearbit.com/replit.com",
+        "tarefas": [
+            "Escrever Código",
+            "Desenvolvimento",
+            "Colaboração"
+        ]
+    },
+    {
+        "nome": "V0.dev",
+        "tipo": "Geração de UI / Frontend",
+        "link": "https://v0.dev/",
+        "descricao": "Ferramenta da Vercel que gera interfaces de usuário (UI) em React/Tailwind a partir de prompts de texto.",
+        "logo": "https://logo.clearbit.com/vercel.com",
+        "tarefas": [
+            "Gerar UI",
+            "Frontend",
+            "Design"
+        ]
+    },
+    {
+        "nome": "Luma Dream Machine",
+        "tipo": "Criação de Vídeo 3D",
+        "link": "https://lumalabs.ai/dream-machine",
+        "descricao": "Gere vídeos realistas e consistentes de alta qualidade a partir de texto e imagem com rapidez.",
+        "logo": "https://logo.clearbit.com/lumalabs.ai",
+        "tarefas": [
+            "Gerar Vídeos",
+            "3D",
+            "Animação"
+        ]
+    }
 ]
