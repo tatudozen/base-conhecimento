@@ -335,5 +335,89 @@
             "3D",
             "Animação"
         ]
+    },
+    {
+        "nome": "NotebookLM",
+        "tipo": "Pesquisa / Anotações",
+        "link": "https://notebooklm.google.com/",
+        "descricao": "Ferramenta do Google que usa IA para ajudar a entender, resumir e fazer brainstorm a partir dos seus documentos.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Pesquisa",
+            "Resumir",
+            "Estudos"
+        ]
+    },
+    {
+        "nome": "ImageFX",
+        "tipo": "Criação de Imagem",
+        "link": "https://aitestkitchen.withgoogle.com/tools/image-fx",
+        "descricao": "Ferramenta experimental do Google Labs para gerar imagens criativas com controle preciso sobre os prompts.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Gerar Imagens",
+            "Criar Arte",
+            "Google Labs"
+        ]
+    },
+    {
+        "nome": "MusicFX",
+        "tipo": "Criação de Música",
+        "link": "https://aitestkitchen.withgoogle.com/tools/music-fx",
+        "descricao": "Crie músicas originais e loops de áudio usando IA, parte do AI Test Kitchen do Google.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Criar Música",
+            "Áudio",
+            "Google Labs"
+        ]
+    },
+    {
+        "nome": "Project IDX",
+        "tipo": "IDE Online / Desenvolvimento",
+        "link": "https://idx.dev/",
+        "descricao": "Ambiente de desenvolvimento do Google baseado em navegador, com IA integrada e suporte a frameworks populares.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Desenvolvimento",
+            "Escrever Código",
+            "Google Labs"
+        ]
+    },
+    {
+        "nome": "Visual Studio Code",
+        "tipo": "Editor de Código",
+        "link": "https://code.visualstudio.com/",
+        "descricao": "O editor de código mais popular, com vasto ecossistema de extensões e integração com Copilot e outras IAs.",
+        "logo": "https://logo.clearbit.com/visualstudio.com",
+        "tarefas": [
+            "Escrever Código",
+            "Desenvolvimento",
+            "IDE"
+        ]
+    },
+    {
+        "nome": "Google AI Studio",
+        "tipo": "Desenvolvimento / Prototipagem",
+        "link": "https://aistudio.google.com/",
+        "descricao": "Prototipe e experimente rapidamente com os modelos Gemini do Google em uma interface web fácil de usar.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Desenvolvimento",
+            "Modelos de IA",
+            "Prototipagem"
+        ]
+    },
+    {
+        "nome": "Gemini",
+        "tipo": "Chatbot / Multimodal",
+        "link": "https://gemini.google.com/",
+        "descricao": "A IA mais capaz do Google, integrada aos apps do Workspace e capaz de raciocínio multimodal avançado.",
+        "logo": "https://logo.clearbit.com/google.com",
+        "tarefas": [
+            "Chatbot",
+            "Geração de Texto",
+            "Pesquisa"
+        ]
     }
 ]
